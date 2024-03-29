@@ -21,5 +21,7 @@ def sum(a,b):
 sum(2,3)
 
 mylist = ["apple","banana",'cherry']
-mylist[3] = "Guava"
+
 print(mylist)
+newList = mylist[1:2]
+print(newList)
