@@ -8,7 +8,7 @@ thislist = ["apple", "banana", "cherry"]
     # print(x)
 
 
-def printName(name):
+# def printName(name):
     # print("My name is"+" " +name)
 
 
