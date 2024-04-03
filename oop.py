@@ -23,11 +23,19 @@ s1= Student("SM","Akbor",24)
 
 ## freecodecamp class oop
 class Device:
+    def __init__(self,name,price):
+        #ami jkhn e class er instance make korbo, tkhn e __init__ dunder function ta call hobe
+        self.name = name
+        self.price =price
+        print("hello i am called automatically")
+        print("Price:",self.price,"Name:",self.name)
+    
     def calculate_total_price(self,x,y):
-        # print(self.price * self.qty)
+        #self function hosse nijer je attribute gulo ace oi gula first parameter a pay
+        # print(self.price * self.qty) or print(x*y) same
         print(x*y)
 
-laptop = Device()
+laptop = Device("Apple",1000)
 laptop.name = "Microsoft Surface"
 laptop.price = 50000
 laptop.qty = 5
@@ -38,5 +46,4 @@ variant_color = "Black" #this is equivalent to Str("Black")
 variant_name = str("surface laptop 3")
 
 print(variant_name.upper())
-
 
